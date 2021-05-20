@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import "./App.css";
 
+//Importando API datos
 import tasks from "./sample/tasks.json";
-//import wololo from "./sample/wololo.json";
 
-
+//Importando Componentes
 import Tasks from "./Components/Tasks";
+import TaskForm from "./Components/TaskForm";
 
-
-console.log(tasks);
+//console.log(tasks);
 //console.table(wololo);
 
 class App extends Component {
@@ -19,6 +19,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        <TaskForm />
         <Tasks tasks={this.state.tasks} />
       </div>
     );
