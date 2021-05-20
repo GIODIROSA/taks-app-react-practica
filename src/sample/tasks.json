@@ -9,7 +9,7 @@
     "id": 1,
     "title": "taks two",
     "description": "lorem ipsum",
-    "done": false
+    "done": true
   },
   {
     "id": 2,
@@ -21,6 +21,6 @@
     "id": 3,
     "title": "taks four",
     "description": "lorem ipsum",
-    "done": false
+    "done": true
   }
 ]
