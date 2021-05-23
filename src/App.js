@@ -7,6 +7,7 @@ import tasks from "./sample/tasks.json";
 //Importando Componentes
 import Tasks from "./Components/Tasks";
 import TaskForm from "./Components/TaskForm";
+import Posts from "./Components/Posts";
 
 //console.log(tasks);
 //console.table(wololo);
@@ -56,6 +57,7 @@ class App extends Component {
           deleteTask={this.deleteTask}
           checkDone={this.checkDone}
         />
+        <Posts />
       </div>
     );
   }
